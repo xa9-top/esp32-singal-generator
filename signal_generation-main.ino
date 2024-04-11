@@ -86,10 +86,10 @@ BLYNK_WRITE(V3){
       terminalV3.println(String("The singal type is switch to:") + String(type_list[freq_type]));
       terminalV3.flush();
     } else if (str_cmp == "help" || str_cmp == "h") {
-      terminalV3.println("You can enter the signal frequency (1-1000000 Hz) to switch frequency.\nOr input 'sine', 'triangle', or 'squart' to switch signal type.\nOr you can input 'help' or 'h' for help.\nIf you need other help or have any questions, you can send an email to 'xa9@xa9.top'.");
+      terminalV3.println("You can enter the signal frequency (1-10000000 Hz) to switch frequency.\nOr input 'sine', 'triangle', or 'squart' to switch signal type.\nOr you can input 'help' or 'h' for help.\nIf you need other help or have any questions, you can send an email to 'xa9@xa9.top'.");
       terminalV3.flush();
     } else {
-      terminalV3.println(String("The command '") + String(terminal_text) + String("' cannot be recognized as runnable. Please check the spelling and try again."));
+      terminalV3.println(String("The command '") + String(terminal_text) + String("' cannot be recognized as runnable.\nPlease check the spelling and try again.\nInput 'h' or 'help' for help."));
       terminalV3.flush();
 
     }
@@ -151,7 +151,7 @@ void setup(){
 
   freq = 1000;
   freq_type = 2;
-  freq_dp = "1KHz";
+  freq_dp = "1.00KHz";
   u8g2.setI2CAddress(0x3C*2);
   u8g2.begin();
   pinMode(17, OUTPUT);
