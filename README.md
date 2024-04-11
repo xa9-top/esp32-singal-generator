@@ -6,7 +6,7 @@
 
 功能是生成频率为1-10mhz的正弦波，三角波和方波
 
-![image-20240411115411177](https://github.com/xa9-top/esp32-singal-generator/img/1.png)
+![image-20240411115411177](https://github.com/xa9-top/esp32-singal-generator/raw/img/1.png)
 
 很简洁吧，不打板子应该没有比这简洁的方式了吧
 
@@ -33,7 +33,7 @@
 
 基本就是
 
-![image-20240411115411177](https://github.com/xa9-top/esp32-singal-generator/img/2.png)
+![image-20240411115411177](https://github.com/xa9-top/esp32-singal-generator/raw/img/2.png)
 
 逻辑很简单吧
 
@@ -53,6 +53,6 @@ app使用blynk，由于官方的服务器在国外太慢，于是自己使用doc
 
 最后放效果图（只测了1khz的方波,也是默认）
 
-![image-20240411120623507](https://github.com/xa9-top/esp32-singal.generator/img/3.png)
+![image-20240411120623507](https://github.com/xa9-top/esp32-singal.generator/raw/img/3.png)
 
 最后请大佬们多多指教（
