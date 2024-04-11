@@ -14,7 +14,7 @@ WidgetTerminal terminal(V3);
 String terminal_text ;
 WidgetTerminal terminalV3(V3);
 
-char auth[] = "VHsqJpxPURXueTdsDQGZYDQ9pTyBG7ZV";
+char auth[] = "";                                                       //此处填blynk app获取的授权码
 String type_list[]={"Sine", "Triangle", "Squart"};
 
 volatile int freq;
