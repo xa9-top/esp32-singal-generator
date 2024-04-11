@@ -53,6 +53,6 @@ app使用blynk，由于官方的服务器在国外太慢，于是自己使用doc
 
 最后放效果图（只测了1khz的方波,也是默认）
 
-![image-20240411120623507](https://github.com/xa9-top/esp32-singal.generator/raw/main/img/image-20240411120623507.png)
+![image-20240411120623507](https://github.com/xa9-top/esp32-singal-generator/raw/main/img/image-20240411120623507.png)
 
 最后请大佬们多多指教（
