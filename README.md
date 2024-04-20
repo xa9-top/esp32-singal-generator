@@ -83,7 +83,7 @@ Password是**test**
 
 然后点一下"![image-20240421063627266](https://github.com/xa9-top/esp32-singal-generator/raw/main/img/image-20240421063627266.png)"
 
-点击**"Connect BLE Device"**
+点击"**Connect BLE Device**"
 
 在底下找到**Blynk**并点击右边的**OK**
 
