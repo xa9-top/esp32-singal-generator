@@ -43,7 +43,7 @@ app使用blynk，由于官方的服务器在国外太慢，于是自己使用doc
 
 这个应该都会吧（
 
-不会去问搜索引擎（其实是懒得写，本人极其稀有的INTP女生）
+不会去问搜索引擎（其实是懒得写）-->这句删掉
 
 然后添加一个工程(ESP32 Dev Board)，BLE方式连接，再添加个终端(虚拟管脚V3)
 
@@ -56,3 +56,50 @@ app使用blynk，由于官方的服务器在国外太慢，于是自己使用doc
 ![image-20240411120623507](https://github.com/xa9-top/esp32-singal-generator/raw/main/img/image-20240411120623507.png)
 
 最后请大佬们多多指教（
+
+然后来更新readme力(公元2024年4月21日)
+
+感觉直接放上面的内容有可能有人不会操作（
+
+先去我网站下载**blynk**(等下半年就用不了了，毕竟用的自家电脑下半年上高中去力，我会直接传到仓库里面)[http://xa9.top:7777/webftp/apks/blynk.apk](http://xa9.top:7777/webftp/apks/blynk.apk)
+
+然后点**Log In**
+
+再点一下最底下Log In上面的**红绿灯**
+
+点一下最显眼的那个开关，切到**CUSTOM**
+
+输入xa9.top(这是我自己搭建的，如果自己有搭建就填自己的域名或者ip)
+
+端口默认(如果docker里面改了端口这里也改下)
+
+再点击OK
+
+然后Email是**exp@xa9.top**
+
+Password是**test**
+
+进去之后直接点击第一个
+
+然后点一下"![image-20240421063627266](https://github.com/xa9-top/esp32-singal-generator/raw/main/img/image-20240421063627266.png)"
+
+点击**"Connect BLE Device"**
+
+在底下找到**Blynk**并点击右边的**OK**
+
+然后返回终端
+
+帮助の翻译：
+
+**您可以输入信号频率（1-1000000 Hz）来切换频率**
+
+**或者输入'sine'（正弦）、'triangle'（三角波）或'squart'（方波）来切换信号类型**
+
+**或者您可以输入'help'或'h'获取帮助**
+
+**如果您需要其他帮助或有任何问题，您可以发送电子邮件至'[xa9@xa9.top](mailto:xa9@xa9.top)'**
+
+![image-20240421065846334](https://github.com/xa9-top/esp32-singal-generator/raw/main/img/image-20240421065846334.png)
+
+然后像这样操作即可（
+
