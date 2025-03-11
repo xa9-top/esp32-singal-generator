@@ -61,7 +61,7 @@ app使用blynk，由于官方的服务器在国外太慢，于是自己使用doc
 
 感觉直接放上面的内容有可能有人不会操作（
 
-先去我网站下载**blynk**(等下半年就用不了了，毕竟用的自家电脑下半年上高中去力，我会直接传到仓库里面)[http://xa9.top:7777/webftp/apks/blynk.apk](http://xa9.top:7777/webftp/apks/blynk.apk)
+先去下载**blynk**
 
 然后点**Log In**
 
@@ -97,7 +97,7 @@ Password是**test**
 
 **或者您可以输入'help'或'h'获取帮助**
 
-**如果您需要其他帮助或有任何问题，您可以发送电子邮件至'[xa9@xa9.top](mailto:xa9@xa9.top)'**
+**如果您需要其他帮助或有任何问题，您可以发送电子邮件至'[xa9.top@gmail.com](mailto:xa9.top@gmail.com)'**
 
 ![image-20240421065846334](https://github.com/xa9-top/esp32-singal-generator/raw/main/img/image-20240421065846334.png)
 
